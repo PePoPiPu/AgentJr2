@@ -1,0 +1,21 @@
+_type: ollama-llm
+format: null
+keep_alive: null
+model: gemma4:e4b-128k
+options:
+  mirostat: null
+  mirostat_eta: null
+  mirostat_tau: null
+  num_ctx: null
+  num_gpu: null
+  num_predict: null
+  num_thread: null
+  repeat_last_n: null
+  repeat_penalty: null
+  stop: null
+  temperature: null
+  tfs_z: null
+  top_k: null
+  top_p: null
+system: null
+template: null

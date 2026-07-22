@@ -1,0 +1,15 @@
+artifact_uri: file:///home/juan/AgenticSOC/LangChain/mlruns/746419944806827779/1477f48aa447410fa682367190ac15dd/artifacts
+end_time: 1784721420312
+entry_point_name: ''
+experiment_id: '746419944806827779'
+lifecycle_stage: active
+run_id: 1477f48aa447410fa682367190ac15dd
+run_name: upbeat-shark-854
+run_uuid: 1477f48aa447410fa682367190ac15dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784721418771
+status: 3
+tags: []
+user_id: juan

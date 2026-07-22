@@ -1,0 +1,65 @@
+_type: llm_chain
+llm:
+  _type: ollama-llm
+  format: null
+  keep_alive: null
+  model: gemma4:e4b-128k
+  options:
+    mirostat: null
+    mirostat_eta: null
+    mirostat_tau: null
+    num_ctx: null
+    num_gpu: null
+    num_predict: null
+    num_thread: null
+    repeat_last_n: null
+    repeat_penalty: null
+    stop: null
+    temperature: null
+    tfs_z: null
+    top_k: null
+    top_p: null
+  system: null
+  template: null
+llm_kwargs: {}
+memory: null
+metadata: null
+name: null
+output_key: text
+output_parser:
+  _type: default
+  name: null
+prompt:
+  _type: prompt
+  input_types: {}
+  input_variables:
+  - customer_count
+  - recipe
+  metadata: null
+  name: null
+  output_parser: null
+  partial_variables: {}
+  tags: null
+  template: 'Imagine you are a fine dining sous chef. Your task is to meticulously
+    prepare for a dish, focusing on the mise-en-place process.Given a recipe, your
+    responsibilities are: 1. List the Ingredients: Carefully itemize all ingredients
+    required for the dish, ensuring every element is accounted for. 2. Preparation
+    Techniques: Describe the techniques and operations needed for preparing each ingredient.
+    This includes cutting, processing, or any other form of preparation. Focus on
+    the art of mise-en-place, ensuring everything is perfectly set up before cooking
+    begins.3. Ingredient Staging: Provide detailed instructions on how to stage and
+    arrange each ingredient. Explain where each item should be placed for efficient
+    access during the cooking process. Consider the timing and sequence of use for
+    each ingredient. 4. Cooking Implements Preparation: Enumerate all the cooking
+    tools and implements needed for each phase of the dish''s preparation. Detail
+    any specific preparation these tools might need before the actual cooking starts
+    and describe what pots, pans, dishes, and other tools will be needed for the final
+    preparation.Remember, your guidance stops at the preparation stage. Do not delve
+    into the actual cooking process of the dish. Your goal is to set the stage flawlessly
+    for the chef to execute the cooking seamlessly.The recipe you are given is for:
+    {recipe} for {customer_count} people. '
+  template_format: f-string
+  validate_template: false
+return_final_only: true
+tags: null
+verbose: false

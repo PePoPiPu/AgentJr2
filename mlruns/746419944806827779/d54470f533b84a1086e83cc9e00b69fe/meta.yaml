@@ -1,0 +1,15 @@
+artifact_uri: file:///home/juan/AgenticSOC/LangChain/mlruns/746419944806827779/d54470f533b84a1086e83cc9e00b69fe/artifacts
+end_time: 1784720987027
+entry_point_name: ''
+experiment_id: '746419944806827779'
+lifecycle_stage: active
+run_id: d54470f533b84a1086e83cc9e00b69fe
+run_name: mercurial-gnat-676
+run_uuid: d54470f533b84a1086e83cc9e00b69fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784720987012
+status: 4
+tags: []
+user_id: juan

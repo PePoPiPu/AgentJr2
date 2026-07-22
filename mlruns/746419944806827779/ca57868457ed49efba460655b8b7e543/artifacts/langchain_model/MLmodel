@@ -1,0 +1,30 @@
+artifact_path: langchain_model
+flavors:
+  langchain:
+    code: code
+    langchain_version: 0.1.16
+    model_data: model.yaml
+    model_load: base_load
+    model_type: LLMChain
+    streamable: false
+  python_function:
+    code: code
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.langchain
+    model_data: model.yaml
+    model_load: base_load
+    predict_stream_fn: predict_stream
+    python_version: 3.12.13
+    streamable: false
+mlflow_version: 2.12.1
+model_size_bytes: 2307
+model_uuid: 61293ec509394bd0b06a6c57870fbba8
+run_id: ca57868457ed49efba460655b8b7e543
+signature:
+  inputs: '[{"type": "string", "name": "customer_count", "required": true}, {"type":
+    "string", "name": "recipe", "required": true}]'
+  outputs: '[{"type": "string", "name": "text", "required": true}]'
+  params: null
+utc_time_created: '2026-07-22 11:51:37.106628'
