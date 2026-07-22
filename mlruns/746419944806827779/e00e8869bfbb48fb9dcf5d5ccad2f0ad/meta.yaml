@@ -1,0 +1,15 @@
+artifact_uri: file:///home/juan/AgenticSOC/LangChain/mlruns/746419944806827779/e00e8869bfbb48fb9dcf5d5ccad2f0ad/artifacts
+end_time: 1784722783315
+entry_point_name: ''
+experiment_id: '746419944806827779'
+lifecycle_stage: active
+run_id: e00e8869bfbb48fb9dcf5d5ccad2f0ad
+run_name: chill-sloth-165
+run_uuid: e00e8869bfbb48fb9dcf5d5ccad2f0ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784722782165
+status: 3
+tags: []
+user_id: juan
